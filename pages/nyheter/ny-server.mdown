@@ -1,0 +1,11 @@
+Date: 10 November 2013
+Categories: server
+Author: Joakim Fors
+Summary: Ny server för OpenStreetMap Sverige
+
+# Ny Server
+
+Nu är äntligen servern för OpenStreetMap Sverige på plats. Tack till Wikimedia Sverige, Mullet AB och FS-Data för hjälp och sponsring.
+
+På denna maskin kan man köra saker som har med OSM att göra; tileservers, nominatim, navigering etc
+
