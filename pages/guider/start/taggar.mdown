@@ -1,0 +1,53 @@
+Title: Taggar
+Description: Kartans grundläggande delar
+Author: Peter Kindström, Tobias Johansson
+
+# Kartelement & taggar
+OpenStreetMap har tre grundläggande typer av kartelement som man använder när man ritar kartan. Dessa kartelement kompletteras sedan med mer specifik information (s.k. taggar) som talar om mer exakt vad kartelementet är för något i verkligheten (t.ex. en väg, mast eller parkbänk).
+
+
+## Punkter (noder)
+Det mest grundläggande elementet är en punkt (eller nod, som den ofta benämns). Det är alltså som det låter, bara en enda punkt på en viss koordinat. Detta element används därför till att markera platser (t.ex stad, namn/typ på butik, utsiktsplats) eller enstaka geografiska saker (t.ex torn, trafikljus, jakttorn). Några exempel:
+
+- För ett samhälle sätts en punkt som sedan taggas `place=town`
+- En teater är en byggnad som kompletteras med en punkt taggad med `amenity=theatre`
+
+
+## Linje (line)
+En annan typ av element, är linjen (ibland kallad väg, sträcka eller line). Det är en samling punkter som hänger ihop, men vanligen har första och sista punkten på olika koordinater (den är normalt inte sluten). Vanligen används linjer mest för vägar, stigar, vattendrag (älvar, åar, bäckar) och liknande, men de används även till att visa exempelvis färjelinjer. Några exempel:
+
+- En motorväg är en linje som taggas med `highway=motorway`
+- Ett älv blir också en linje och taggas med `waterway=river`
+
+Alla linjer behöver inte vara slutna. Exempelvis vissa "vägar" (rondeller, ridbanor, motorbanor, etc) ritas som slutna, men är ändå inget område. Det är i slutänden taggarna som bestämmer vad det är du ritar.
+
+
+## Områden (area)
+Elementet område är tre eller fler punkter som tillsammans bildar ett slutet område, d.v.s första och sista punkten är samma geografiska koordinat. Exempel på vanliga områden är förstås sjöar, åkrar och skogar, men områden används även för att markera naturreservat och koloniområden.
+
+- En sjö ritas som ett område och taggas sen med `natural=water`
+- Åkrar är också områden och taggas vanligen med `landuse=farmland`
+
+
+## Taggar
+En viktig del av kartan i OpenStreetMap är sedan de s.k. taggarna. Varje punkt, sträcka eller område behöver ha en eller flera taggar och det är dessa tillsammans som bestämmer vad det är för något som ritats in (och sen visas) på kartan.
+
+Taggarna är uppbyggda i par, med en nyckel och ett värde skilda åt med likhetstecken, exempelvis `highway=path`. Första delen (nyckeln) kan man säga är typ av kartobjekt, där `highway` är vägar och `waterway` förstås är vatten. Den andra delen (värdet) talar sedan mer specifikt om vad det är för väg, vattendrag etc. Genom att kombinera nycklar och värden på vissa sätt kan man rita in det man vill på kartan. Taggen `highway=path` är alltså en stig medan `waterway=river` är en älv.
+
+Ibland räcker det inte med bara en tagg för att tala om vad som ritas. Element i OpenStreetMap tillåter - och ibland kräver - flera taggar. Ofta är det då kompletterande information som läggs till, exempelvis `name=Kungsgatan` på en väg. Andra exempel är att sätta `surface=gravel` på en grusväg och kanske även `maxspeed=20` för att ange hastighetsbegränsningen.
+
+Att tagga - och tagga rätt - är alltså en stor och viktig del av kartarbetet. Det kan låta krångligt att behöva lära sig en massa olika taggar, men det behöver du inte. Kart-redigeraren på OpenStreetMap förenklar det hela och där väljer du färdiga kartobjekt medan redigeraren fixar taggarna i bakgrunden.
+
+Det är ändå nyttigt att förstå detta med taggar, då redigeraren även tillåter att du ändrar och lägger till taggar manuellt. Dessutom finns det många andra verktyg och områden där det kan vara bra att förstå hur taggarna fungerar.
+
+
+## Mer information
+För dig som vill lära mer eller gå djupare in på detaljer, kan följande vara intressant:
+
+
+### Kartdetaljer (map features)
+På OpenStreetMaps wiki finns en viktig sida - [Map features](http://wiki.openstreetmap.org/wiki/Map_Features) - som listar alla de vanligaste taggarna som används. Undrar du hur en vissa sak ska taggas, så är det bra att börja där.
+
+
+### Relationer
+Man kan säga att det faktiskt finns ett fjärde kartelement hos OpenStreetMap - relationer. Enkelt uttryckt är det en grupp av två eller flera av de andra kartelementen som tillsammans bildar en speciell sak på kartan, exempelvis en busslinje med hållplatser och sträckning. Relationer är ganska avancerade och inte så vanliga, så till en början behöver du inte använda dem.

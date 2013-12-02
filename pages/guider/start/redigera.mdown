@@ -1,0 +1,38 @@
+Title: Redigera
+Description: Exempel på hur du ritar vanliga kartobjekt
+Author: Peter Kindström
+
+# Redigera kartan
+Innan du börjar ändra och lägga till på OpenStreetMap måste du känna till att du *inte* får använda copyright-skyddat material för att skapa OpenStreetMap-kartor. Du kan alltså *inte* rita av från t.ex. Hitta.se eller Google Maps och du får normalt *inte* heller rita av någon papperskarta. Den kartdata du lägger in måste vara fri att använda. Är den inte det, eller är du tveksam, lägg inte in den.
+
+Nu finns det tack och lov generösa företag och personer. Bland annat Yahoo och Bing har nämligen tillåtit OpenStreetMap att använda deras satellitbilder och flygfotografier för att rita kartor efter, så den bild du kan se som bakgrund när du ritar på t.ex openstreetmap.org är det fullt tillåtet att rita av. I stora delar av Sverige har bilderna tillräckligt hög upplösning för att rita bra kartor efter.
+
+**Observera** att satellit-/flygbilderna kan vara gamla, så om du hittar ett område som verkar felritat kan det mycket väl vara så att bilden är gammal och kartan är rätt. Ändra aldrig kartan på dessa ställen om du inte sett med egna ögon hur där ser ut.
+
+
+## Börja redigera
+Börja med att gå till OpenStreetMaps webbplats och zooma in kartan där du vill rita. Klicka sedan på texten "Redigera" och logga därefter in med dina uppgifter (om du inte redan är inloggad). Du ska nu hamna i den redigerare som heter iD och är det ditt första besök så ser det ut så här:
+
+![Startbild för iD-redigeraren](attachments/guider/start/id-start.png "Startbild för iD-redigeraren")
+
+Första gången du redigerar på OpenStreetMap rekommenderas du starkt att välja Starta genomgången. Det är en ganska grundlig guide till OpenStreetMap som ger dig mycket bra kunskaper om hur du går tillväga för att redigera kartor på OpenStreetMap. Den kan ta en stund att gå igenom, men det är väl värt tiden om du vill komma igång ordentligt. Vi kommer inte ägna mer plats här åt att förklara hur du ritar kartor, utan hänvisar till denna guide plus den inbyggda hjälpen.
+
+Om du vill gå igenom guiden vid ett senare tillfälle, så hittar du den i hjälpmenyn.
+
+
+## Kort om redigeraren
+Fönstret där du redigerar kartan har fem olika delar:
+
+![iD-redigerarens olika delar](attachments/guider/start/id-delar.png "iD-redigerarens olika delar")
+
+1. Objektfönstret visas när ett objekt markeras och där kan du se, ändra och lägga till information om objektet
+2. Knappar för att välja vilken typ av element du vill rita (punkt, linje eller område)
+3. Meny och zoom-knappar för att välja bakgrund, få hjälp, zooma eller visa var du är
+4. Objektmeny somdyker upp när du klickar på ett objekt (markerar det). Det kan ha varierande innehåll, men gör det enkelt att utföra vanliga åtgärder med objektet
+5. Ritytan där du ritar och ändrar kartan. Normal finns där ett flygfoto/ en satellitbild som bakgrund
+
+
+## Fortsätt på egen hand
+Nu har du förhoppningsvis fått en god start med kartredigeringen för OpenStreetMap. Du blir naturligtvis inte fullärd med hjälp av dessa webbsidor, men bör fått veta så pass mycket att du kan fortsätta på egen hand. Ett tips är att du börjar med att rita mindre, enklare objekt som du känner väl till. Exempelvis vägar, hus och intressanta platser i närheten av där du bor. När du sen blir mer varm i kläderna fortsätter du med andra objekt och kanske utökar området för din kartläggning.
+
+Vill du läsa mer om kartritning eller ställa frågor på svenska, så är den [svenska wikin](http://wiki.openstreetmap.org/wiki/WikiProject_Sweden/), vår [svenska e-postlista](http://lists.openstreetmap.org/listinfo/talk-se) och det [svenska forumet](http://forum.openstreetmap.org/viewforum.php?id=4) de bästa platserna att utgå från.

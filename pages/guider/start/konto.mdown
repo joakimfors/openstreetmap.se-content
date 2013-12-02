@@ -1,0 +1,46 @@
+Title: Konto
+Description: Hur du skapar ett konto
+Author: learnosm.org, Peter Kindström, Joakim Fors
+
+# Skapa konto
+För att du ska kunna börja redigera kartan, måste du ha ett konto hos OpenStreetMap. Ett sådant är lätt att skaffa, du behöver bara ange en e-postadress och komma på ett unikt användarnamn.
+
+
+## Gå till registreringen
+Börja med att ta dig till [OpenStreetMaps webbplats](http://www.openstreetmap.org/). Där hittar du länken “registrera” (eller "sign up" på engelska) längst upp i det högra hörnet. Klicka på den!
+
+![Registrera-länken](attachments/guider/start/registrera.png "Länk till registreringssidan")
+
+
+## Fyll i uppgifterna
+Du ska nu komma till en sida där du har fem olika fält att fylla i:
+
+- I de första två fälten skriver du din e-postadress (samma i bägge rutorna). Det är till denna e-postadress ditt bekräftelse-mail kommer.
+- I den tredje rutan skriver du ett användarnamn du vill ha. Ditt förslag kan redan vara upptaget, så prova med något mer ovanligt än ett enkelt förnamn.
+- I de två sista rutorna anger du ditt valda lösenord (samma i bägge rutorna).
+
+Glöm inte heller att notera ditt användarnamn och lösenord så du kan logga in framöver.
+
+![Fyll i uppgifter](attachments/guider/start/uppgifter.png "Fyll i uppgifterna om dig")
+
+
+## Fortsätt
+När du fyllt i alla uppgifter så klickar du på knappen "Fortsätt", under rutorna.
+
+Om något blev fel kommer ett felmeddelande att synas och du måste åtgärda felet innan du kan fortsätta. Kolla att e-postadress & lösenord är desamma i bägge rutorna. Skulle den tredje rutan blir markerad betyder det att användarnamnet du föreslog är upptaget. Föreslå då ett nytt och försök igen.
+
+
+## Bekräfta registreringen
+Gå nu till din e-postläsare och se att du fått en bekräftelse via e-posten.
+
+- Öppna bekräftelse-mailet och klicka på länken.
+- Du ska nu automatiskt hamna i webbläsaren och på en webbsida som talar om att ditt OpenStreetMap-konto är skapat!
+
+![Bekräfta ditt konto](attachments/guider/start/konfirmera.png "E-brev om att bekräfta ditt konto")
+
+
+##Logga in!
+Gå nu åter till OpenStreetMaps webbplats (första sidan) och klicka på länken "logga in" (eller “log in” på engelska) uppe till höger. Skriv sedan in ditt användarnamn och ditt lösenord i rutorna och när du sen klickar på 'Logga in' så loggas du in.
+
+![Logga in](attachments/guider/start/inloggning.png "Logga in och börja rita")
+
