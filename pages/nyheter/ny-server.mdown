@@ -1,11 +1,11 @@
-Date: 10 November 2013
+Date: 2013-11-28
 Categories: server
 Author: Joakim Fors
-Summary: Ny server för OpenStreetMap Sverige
+Summary: Ny server för OpenStreetMap Sverige på plats
 
 # Ny Server
 
-Nu är äntligen servern för OpenStreetMap Sverige på plats. Tack till Wikimedia Sverige, Mullet AB och FS-Data för hjälp och sponsring.
+Nu är äntligen [servern](http://wiki.openstreetmap.org/wiki/WikiProject_Sweden/Server) för OpenStreetMap Sverige på plats hos [FS-Data](http://fsdata.se) i [Helsingborg](http://www.openstreetmap.org/#map=16/56.0464/12.6926). Tack till [Wikimedia Sverige](http://wikimedia.se) för huvudsponsring, [Mullet AB](http://mullet.se) för sponsring av extra godis till servern och [FS-Data](http://fsdata.se) colocation och nät.
 
-På denna maskin kan man köra saker som har med OSM att göra; tileservers, nominatim, navigering etc
+På denna maskin är det tänkt att man ska kunna köra saker som har med OSM att göra; tileservers, Nominatim, navigering etc. Mer information om hur man ska gå tillväga för att få åtkomst till maskinen kommer men under tiden kan ni börja gnugga geniknälarna.
 

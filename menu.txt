@@ -1,3 +1,7 @@
 nyheter
-kontakt
-hjalp
+guider
+  guider/start
+    guider/start/konto
+    guider/start/taggar
+    guider/start/redigera
+om

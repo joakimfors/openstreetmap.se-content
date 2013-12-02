@@ -1,1 +1,25 @@
-%section.articles= article_summaries(latest_articles)
+Template: home
+
+%h1(style="overflow: hidden; width: 0;") OpenStreetMap Sverige
+
+%div(style="font-weight: 300;" class="clearfix")
+  %img(src="/images/osm_logo.png" style="float: right; width: 25%; margin-left: 2em;")
+
+  %p
+    [OpenStreetMap](http://openstreetmap.org) skapar och tillhandahåller fri geografisk information, såsom vägkartor, till alla som vill ha denna. Projektet startades för att de flesta kartor som man kan tro är fria ofta har rättsliga eller tekniska begränsningar för vad du kan göra med dem, vilket hindrar folk från att använda informationen på ett kreativt, produktivt eller oväntat sätt.
+
+#sponsors.clearfix
+  %h2 Sponsorer
+
+  %div(style="text-align: center;")
+    %a(href="http://wikimedia.se" style="border: none;")
+      %img(src="/attachments/wikimedia_se_logo.png")
+    %a(href="http://mullet.se" style="border: none;")
+      %img(src="/attachments/mullet_logo.gif" style="margin-left: 3em; margin-right: 3em;")
+    %a(href="http://fsdata.se" style="border: none;")
+      %img(src="/attachments/fsdata_press_logo.png")
+
+#news.clearfix
+  %h2 Nyheter
+
+  %section.articles= article_summaries(latest_articles)
