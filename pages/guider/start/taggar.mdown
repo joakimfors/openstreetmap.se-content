@@ -50,4 +50,4 @@ På OpenStreetMaps wiki finns en viktig sida - [Map features](http://wiki.openst
 
 
 ### Relationer
-Man kan säga att det faktiskt finns ett fjärde kartelement hos OpenStreetMap - relationer. Enkelt uttryckt är det en grupp av två eller flera av de andra kartelementen som tillsammans bildar en speciell sak på kartan, exempelvis en busslinje med hållplatser och sträckning. Relationer är ganska avancerade och inte så vanliga, så till en början behöver du inte använda dem.
+Man kan säga att det faktiskt finns ett fjärde kartelement hos OpenStreetMap - relationer. Enkelt uttryckt är det en grupp av två eller flera av de andra kartelementen som tillsammans bildar en speciell sak på kartan, exempelvis en busslinje med hållplatser och sträckning (en s.k. "route"), en byggnad med hål i mitten eller en sjö med öar i ("multipolygon"). Relationer är lite mer avancerade så till en början behöver du inte använda dem. Det är dock bra att känna till att de existerar i olika former då man kan stöta på dem lite här och där.
