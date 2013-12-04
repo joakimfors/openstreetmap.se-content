@@ -13,8 +13,8 @@ Det mest grundläggande elementet är en punkt (eller nod, som den ofta benämns
 - En teater är en byggnad som kompletteras med en punkt taggad med `amenity=theatre`
 
 
-## Linje (line)
-En annan typ av element, är linjen (ibland kallad väg, sträcka eller line). Det är en samling punkter som hänger ihop, men vanligen har första och sista punkten på olika koordinater (den är normalt inte sluten). Vanligen används linjer mest för vägar, stigar, vattendrag (älvar, åar, bäckar) och liknande, men de används även till att visa exempelvis färjelinjer. Några exempel:
+## Linje (line/way)
+En annan typ av element, är linjen (ibland kallad väg, sträcka, line eller way). Det är en samling punkter som hänger ihop, men vanligen har första och sista punkten på olika koordinater (den är normalt inte sluten). Vanligen används linjer mest för vägar, stigar, vattendrag (älvar, åar, bäckar) och liknande, men de används även till att visa exempelvis färjelinjer. Några exempel:
 
 - En motorväg är en linje som taggas med `highway=motorway`
 - Ett älv blir också en linje och taggas med `waterway=river`
