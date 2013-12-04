@@ -46,7 +46,7 @@ För dig som vill lära mer eller gå djupare in på detaljer, kan följande var
 
 
 ### Kartdetaljer (map features)
-På OpenStreetMaps wiki finns en viktig sida - [Map features](http://wiki.openstreetmap.org/wiki/Map_Features) - som listar alla de vanligaste taggarna som används. Undrar du hur en vissa sak ska taggas, så är det bra att börja där.
+På OpenStreetMaps wiki finns en viktig sida - [Map features](http://wiki.openstreetmap.org/wiki/Sv:Map_Features) - som listar alla de vanligaste taggarna som används. Undrar du hur en vissa sak ska taggas, så är det bra att börja där.
 
 
 ### Relationer
