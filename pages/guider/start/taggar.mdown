@@ -6,7 +6,7 @@ Author: Peter Kindström, Tobias Johansson
 OpenStreetMap har tre grundläggande typer av kartelement som man använder när man ritar kartan. Dessa kartelement kompletteras sedan med mer specifik information (s.k. taggar) som talar om mer exakt vad kartelementet är för något i verkligheten (t.ex. en väg, mast eller parkbänk).
 
 
-## Punkter (noder)
+## Punkter (node)
 Det mest grundläggande elementet är en punkt (eller nod, som den ofta benämns). Det är alltså som det låter, bara en enda punkt på en viss koordinat. Detta element används därför till att markera platser (t.ex stad, namn/typ på butik, utsiktsplats) eller enstaka geografiska saker (t.ex torn, trafikljus, jakttorn). Några exempel:
 
 - För ett samhälle sätts en punkt som sedan taggas `place=town`
