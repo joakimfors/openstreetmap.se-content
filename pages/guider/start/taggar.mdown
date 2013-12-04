@@ -23,7 +23,7 @@ Alla linjer behöver inte vara slutna. Exempelvis vissa "vägar" (rondeller, rid
 
 
 ## Områden (area)
-Elementet område är tre eller fler punkter som tillsammans bildar ett slutet område, d.v.s första och sista punkten är samma geografiska koordinat. Exempel på vanliga områden är förstås sjöar, åkrar och skogar, men områden används även för att markera naturreservat och koloniområden.
+Elementet område är en linje/väg med tre eller fler punkter som bildar ett slutet område, d.v.s första och sista punkten är samma geografiska koordinat. Exempel på vanliga områden är förstås sjöar, åkrar och skogar, men områden används även för att markera naturreservat och koloniområden. I vissa fall kan det krävas att man explicit berättar att det är ett område genom att lägga till `area=yes`. Exempel på detta är torg som brukar taggas med `highway=pedestrian` + `area=yes`.
 
 - En sjö ritas som ett område och taggas sen med `natural=water`
 - Åkrar är också områden och taggas vanligen med `landuse=farmland`
