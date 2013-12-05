@@ -1,0 +1,10 @@
+Date: 2013-12-05
+Categories: server
+Author: Joakim Fors
+Summary: Tileservern börjar sakta men säkert ta form.
+
+# Tileserver
+
+Kalle har jobbat hårt med att få igång en tileserver. Den kör för närvarande bara Sverige i PostGIS men tanken är att den ska rendera alla nordiska länder samt områden runt Östersjökusten.
+
+De största problemen har varit att sammanfoga partiella planetextrakt, tagna från [Geofabrik](http://download.geofabrik.de/), till något vettigt. Vi får heller inte helt uppdaterad data på det sättet. Dock finns det planer på att försöka köra partiell import av planeten och planet-diffar (lättare sagt än gjort). Annars välkomnar vi även en donation av en eller flera 500+ GB SSDn så vi kan köra hela planeten. ;)
