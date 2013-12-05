@@ -1,7 +1,7 @@
 Date: 2013-11-28
 Categories: server
 Author: Joakim Fors
-Summary: Ny server för OpenStreetMap Sverige på plats
+Summary: Ny server för OpenStreetMap Sverige på plats.
 
 # Ny Server
 
