@@ -13,7 +13,7 @@ Nu finns det tack och lov generösa företag och personer. Bland annat Yahoo och
 ## Börja redigera
 Börja med att gå till OpenStreetMaps webbplats och zooma in kartan där du vill rita. Klicka sedan på texten "Redigera" och logga därefter in med dina uppgifter (om du inte redan är inloggad). Du ska nu hamna i den redigerare som heter iD och är det ditt första besök så ser det ut så här:
 
-![Startbild för iD-redigeraren](attachments/guider/start/id-start.png "Startbild för iD-redigeraren")
+![Startbild för iD-redigeraren](/attachments/guider/start/id-start.png "Startbild för iD-redigeraren")
 
 Första gången du redigerar på OpenStreetMap rekommenderas du starkt att välja Starta genomgången. Det är en ganska grundlig guide till OpenStreetMap som ger dig mycket bra kunskaper om hur du går tillväga för att redigera kartor på OpenStreetMap. Den kan ta en stund att gå igenom, men det är väl värt tiden om du vill komma igång ordentligt. Vi kommer inte ägna mer plats här åt att förklara hur du ritar kartor, utan hänvisar till denna guide plus den inbyggda hjälpen.
 
@@ -23,7 +23,7 @@ Om du vill gå igenom guiden vid ett senare tillfälle, så hittar du den i hjä
 ## Kort om redigeraren
 Fönstret där du redigerar kartan har fem olika delar:
 
-![iD-redigerarens olika delar](attachments/guider/start/id-delar.png "iD-redigerarens olika delar")
+![iD-redigerarens olika delar](/attachments/guider/start/id-delar.png "iD-redigerarens olika delar")
 
 1. Objektfönstret visas när ett objekt markeras och där kan du se, ändra och lägga till information om objektet
 2. Knappar för att välja vilken typ av element du vill rita (punkt, linje eller område)
