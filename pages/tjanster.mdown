@@ -8,3 +8,5 @@ För tillfället erbjuder openstreetmap.se förljande externa tjänster:
   - `/hydda/base/{z}/{x}/{y}.png`
   - `/hydda/roads_and_labels/{z}/{x}/{y}.png`
 - [Taginfo](http://wiki.openstreetmap.org/wiki/Taginfo) för Sverige på `http://sweden.taginfo.openstreetmap.se`
+
+Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data.
