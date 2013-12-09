@@ -3,7 +3,7 @@
 För tillfället erbjuder openstreetmap.se förljande externa tjänster:
 
 - [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) för Sverige på `http://sweden.overpass.openstreetmap.se/api/`
-- Tile server på `{abcdef}.tile.openstreetmap.se/` med följande stilar:
+- Tile server på `{abcdef}.tile.openstreetmap.se` med följande stilar:
   - `/hydda/full/{z}/{x}/{y}.png`
   - `/hydda/base/{z}/{x}/{y}.png`
   - `/hydda/roads_and_labels/{z}/{x}/{y}.png`
