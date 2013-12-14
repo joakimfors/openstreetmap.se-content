@@ -19,11 +19,11 @@ En annan typ av element, är linjen (ibland kallad väg, sträcka, line eller wa
 - En motorväg är en linje som taggas med `highway=motorway`
 - Ett älv blir också en linje och taggas med `waterway=river`
 
-Alla linjer behöver inte vara slutna. Exempelvis vissa "vägar" (rondeller, ridbanor, motorbanor, etc) ritas som slutna, men är ändå inget område. Det är i slutänden taggarna som bestämmer vad det är du ritar.
+Alla linjer behöver inte vara öppna. Exempelvis vissa "vägar" (rondeller, ridbanor, motorbanor, etc) ritas som slutna, men är ändå inget område. Det är i slutänden taggarna som bestämmer vad det är du ritar.
 
 
 ## Områden (area)
-Elementet område är en linje/väg med tre eller fler punkter som bildar ett slutet område, d.v.s första och sista punkten är samma geografiska koordinat. Exempel på vanliga områden är förstås sjöar, åkrar och skogar, men områden används även för att markera naturreservat och koloniområden. I vissa fall kan det krävas att man explicit berättar att det är ett område genom att lägga till `area=yes`. Exempel på detta är torg som brukar taggas med `highway=pedestrian` + `area=yes`.
+Elementet område är en linje med tre eller fler punkter som bildar ett slutet område, d.v.s första och sista punkten är samma geografiska koordinat. Exempel på vanliga områden är förstås sjöar, åkrar och skogar, men områden används även för att markera naturreservat och koloniområden. <sup>1</sup>
 
 - En sjö ritas som ett område och taggas sen med `natural=water`
 - Åkrar är också områden och taggas vanligen med `landuse=farmland`
@@ -51,3 +51,5 @@ På OpenStreetMaps wiki finns en viktig sida - [Map features](http://wiki.openst
 
 ### Relationer
 Man kan säga att det faktiskt finns ett fjärde kartelement hos OpenStreetMap - relationer. Enkelt uttryckt är det en grupp av två eller flera av de andra kartelementen som tillsammans bildar en speciell sak på kartan, exempelvis en busslinje med hållplatser och sträckning (en s.k. "route"), en byggnad med hål i mitten eller en sjö med öar i ("multipolygon"). Relationer är lite mer avancerade så till en början behöver du inte använda dem. Det är dock bra att känna till att de existerar i olika former då man kan stöta på dem lite här och där.
+
+<sup>1</sup> I vissa fall kan det krävas att man explicit berättar att det är ett område genom att lägga till `area=yes`. Exempel på detta är torg som brukar taggas med `highway=pedestrian` + `area=yes`.

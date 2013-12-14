@@ -2,7 +2,7 @@ Date: 2013-12-14
 Categories: tjänster
 Author: Joakim Fors, Karl Wettin, Peter Kindström
 Description: En sida som beskriver alla tjänster som erbjuds på openstreetmap.se
-Summary: På denna sida beskrivs de tjänster som finns att tillgå på servern hos openstreetmap.se. Du kan kort se hur man kommer åt dem de används och även hitta information om hur du själv kan använda servern en tjänst eller ett projekt.
+Summary: På denna sida beskrivs de tjänster som finns att tillgå på servern hos openstreetmap.se. Du kan kort se hur man kommer åt dem och även hitta information om hur du själv kan använda servern för en tjänst eller ett projekt.
 
 # Tjänster
 För tillfället erbjuder openstreetmap.se förljande externa tjänster:
