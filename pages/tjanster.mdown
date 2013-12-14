@@ -1,12 +1,36 @@
-#Tjänster
+Date: 2013-12-14
+Categories: tjänster
+Author: Joakim Fors, Karl Wettin, Peter Kindström
+Description: En sida som beskriver alla tjänster som erbjuds på openstreetmap.se
+Summary: På denna sida beskrivs de tjänster som finns att tillgå på servern hos openstreetmap.se. Du kan kort se hur man kommer åt dem de används och även hitta information om hur du själv kan använda servern en tjänst eller ett projekt.
 
+# Tjänster
 För tillfället erbjuder openstreetmap.se förljande externa tjänster:
 
-- [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) för Sverige på `http://sweden.overpass.openstreetmap.se/api/`
-- Tile server på `{abcdef}.tile.openstreetmap.se` med följande stilar:
-  - `/hydda/full/{z}/{x}/{y}.png`
-  - `/hydda/base/{z}/{x}/{y}.png`
-  - `/hydda/roads_and_labels/{z}/{x}/{y}.png`
-- [Taginfo](http://wiki.openstreetmap.org/wiki/Taginfo) för Sverige på `http://sweden.taginfo.openstreetmap.se`
 
-Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data.
+## Overpass API
+Med hjälp av [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) kan du hämta OpenStreetMap kartdata för Sverige. Man skriver frågor i webbadressen och får som svar kartdata i textform. Du når tjänsten på adressen `http://sweden.overpass.openstreetmap.se/api/`.
+
+
+## Tileserver
+Kartor hämtade från Internet byggs vanligen upp av flera mindre kartrutor, s.k. tiles. Dessa kartrutor hämtas från tileservers, som dessutom kan ha kartrutor med olika kartstil och detaljinnehåll. Från `{abcdef}.tile.openstreetmap.se/` kan du hämta kartrutor för Sverige och det finns följande kartstilar att välja mellan
+* `/hydda/full/{z}/{x}/{y}.png`
+* `/hydda/base/{z}/{x}/{y}.png`
+* `/hydda/roads_and_labels/{z}/{x}/{y}.png`
+
+Om du exempelvis skriver följande adress i webbläsaren
+  http://c.tile.openstreetmap.se/hydda/base/12/2252/1197.png
+så får du en 256×256 pixel stor bild/karta över östra delen av Arlanda. Om du byter kartstilen `base` mot `full` så blir dessutom en väg mer synlig. <sup>1</sup>
+
+
+## Tagginfo
+Med tjänsten på `http://sweden.taginfo.openstreetmap.se` kan du se statistik för taggarna som används på OpenStreetMap-kartan för Sverige. Här kan du bland annat se hur mycket en tagg används, på vilket typ av element, dess vanligast värden och hur den vanligen kombineras med andra taggar. Kan exempelvis användas för att se vilken av två liknande taggar som är mest använd eller för att hitta taggar som är felaktiga eller sitter på fel typ av element.
+Vill du veta mer om detta, kan du läsa på [wikisidan om Taginfo](http://wiki.openstreetmap.org/wiki/Taginfo).
+
+
+## Virtuella maskiner
+Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data. Har du en idé du vill förverkliga, kontakta oss så ska vi se vad vi kan göra.
+
+----
+
+<sup>1</sup> Normalt hämtar man sällan kartor på detta sätt, utan man har ett program som gör det (t.ex JavaScript för webbsidor). Då kan man istället ange latitud och longitud tillsammans med en zoom-nivå och ett område. Sen ser programmet till att hämta de kartrutor som krävs för att presentera kartan korrekt.
