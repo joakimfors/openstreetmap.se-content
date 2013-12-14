@@ -1,0 +1,32 @@
+Date: 2013-12-14
+Categories: server, osmsverige, osm
+Author: Peter Kindström
+Description: En mening som beskriver nyheten för sökmotorer och liknande.
+Summary: En kort sammanfattning av nyhetens innehåll, gärna 2-3 meningar lång men utan ny rad.
+Flags: draft
+
+
+# Nyhetens rubrik
+En bra nyhet besvarar de sex journalistiska grundfrågorna: vad som har hänt, vem som har gjort det, var det hände, hur det gick till, varför det hände (orsak) och vilka konsekvenser det fått.
+Börja med att besvara första frågan och sedan de övriga i tur och ordning, så blir det automatisk en nyhetsartikel. Naturligtvis behöver inte alla frågor ett svar i alla nyheter, men frågorna är en bra början.
+
+
+## Underrubriker
+Använd helst inte underrubriker i korta nyheter. Är det på väg att bli en lång nyhet, kanske det finns anledning att göra det till en guide eller webbsida istället?
+
+
+## Metadata
+*Date* - datum (i formatet yyyy-mm-dd) då nyheten skapades eller senast ändrades. Ett datum senare än dagens, gör att nyheten publiceras först detta senare datum.
+*Categories* - försök hålla enhetliga kategorier enligt exemplen i denna malls huvud
+*Author* - namn på den som skrivit nyheten
+*Description* - en mening som beskriver nyheten för sökmotorer och liknande.
+*Summary:* - en kortsammanfattning av nyheten. Det är bra om den består av 2-3 meningar för den används för att locka läsare från förstasidan. Undvik ny rad, även om det är möjlig att få till med `\n`.
+*Flags: draft* - kan användas när nyheten ännu inte ska visas för allmänheten. Helt enkelt ett utkast till nyhet. *Ta bort för att kunna publicera nyheten*
+
+
+## Filnamn
+Nyhetens filnamn blir även en del av webbadressen, t.ex. `http://openstreetmap.se/nyheter/2013-12-05-tileserver`. Ange därför alltid datum först och använd "-" för mellanslag (inte "_". Försök hålla filnamnet kort och koncist.
+
+
+## Övrigt
+Läs mer om Markdown här: [Markdown: Syntax](http://daringfireball.net/projects/markdown/syntax)
