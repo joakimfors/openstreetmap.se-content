@@ -1,11 +1,17 @@
 # Om
+Vintern 2013 kom denna webbplats för OpenStreetMap Sverige igång på allvar, efter en del diskussioner på IRC. Tillsammans med diverse andra OSM-tjänster ligger webbsidorna på denna server som tillkommit med hjälp av [Wikimedia Sverige](http://wikimedia.se), [Mullet AB](http://mullet.se/) och [FS-Data](http://fsdata.se/). Stort tack till dem!
+
+Målet med servern är att samla både tjänster och information på ett, gemensamt ställe där vi tillsammans kan driva arbetet med OpenStreetMap i Sverige framåt.
 
 ## Kontakt
-
 Du når oss enklast via den [svenska e-post-listan](https://lists.openstreetmap.org/listinfo/talk-se) eller på IRC på [#osm.se @ irc.oftc.net](irc://irc.oftc.net/#osm.se).
 
-## Hårdvara
 
+## Copyright
+Alla texter och bilder på denna webbplats får användas/redigeras fritt, enligt en Creative Commons-licens som heter [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.sv). Vi ser gärna att information om OpenStreetMap sprids på olika sätt, bara du låter den vara fortsatt fri och är tydlig med att den kommer från OpenStreetMap Sverige.
+
+
+## Hårdvara
 Servern innehåller följande prylar:
 
 * Supermicro 1U chassi med dubbla PSUn
@@ -13,5 +19,4 @@ Servern innehåller följande prylar:
 * 48 GiB DDR3 ECC RAM på 1600 MHz
 * 2 st Seagate Constellation 500 GB SAS
 * 2 st Samsung SM843T 240 GB SATA
-
-Den kör Debian 7.2 som KVM-värd.
+* Den kör Debian 7.2 som KVM-värd.
