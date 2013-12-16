@@ -1,6 +1,8 @@
 Title: Nybörjarguide
 Description: Startsida för Kom igång med OpenStreetMap
 Author: Peter Kindström
+Categories: guider:10
+Summary: Hur du kommer igång med att rita & redigera fria kartor.
 
 # Nybörjarguide
 

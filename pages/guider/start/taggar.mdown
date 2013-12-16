@@ -1,6 +1,8 @@
 Title: Taggar
 Description: Kartans grundläggande delar
 Author: Peter Kindström, Tobias Johansson
+Categories: guider
+Summary: OpenStreetMap har tre grundläggande typer av kartelement som man använder när man ritar kartan. Dessa kartelement kompletteras sedan med mer specifik information som talar om mer exakt vad kartelementet är för något i verkligheten.
 
 # Kartelement & taggar
 OpenStreetMap har tre grundläggande typer av kartelement som man använder när man ritar kartan. Dessa kartelement kompletteras sedan med mer specifik information (s.k. taggar) som talar om mer exakt vad kartelementet är för något i verkligheten (t.ex. en väg, mast eller parkbänk).

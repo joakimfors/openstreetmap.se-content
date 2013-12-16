@@ -1,6 +1,8 @@
 Title: Konto
 Description: Hur du skapar ett konto
 Author: learnosm.org, Peter Kindström, Joakim Fors
+Categories: guider
+Summary: Hur man skapar ett OpenStreetMap konto
 
 # Skapa konto
 För att du ska kunna börja redigera kartan, måste du ha ett konto hos OpenStreetMap. Ett sådant är lätt att skaffa, du behöver bara ange en e-postadress och komma på ett unikt användarnamn.
