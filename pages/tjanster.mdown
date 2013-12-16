@@ -13,6 +13,7 @@ Med hjälp av [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) ka
 
 ## Tileserver
 Kartor hämtade från Internet byggs vanligen upp av flera mindre kartrutor, s.k. tiles. Dessa kartrutor hämtas från tileservers, som dessutom kan ha kartrutor med olika kartstil och detaljinnehåll. Från `{abcdef}.tile.openstreetmap.se/` kan du hämta kartrutor för Sverige och det finns följande kartstilar att välja mellan
+
 * `/hydda/full/{z}/{x}/{y}.png`
 * `/hydda/base/{z}/{x}/{y}.png`
 * `/hydda/roads_and_labels/{z}/{x}/{y}.png`
