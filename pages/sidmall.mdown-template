@@ -30,3 +30,20 @@ Normalt bör vi inte använda fler rubriknivåer än denna, det blir mest svårl
 
 Läs mer om Markdown här: [Markdown: Syntax](http://daringfireball.net/projects/markdown/syntax)
 
+## Källkod
+
+PHP kodblock
+
+    :::php
+    for ($i = 0; $i < 10; $i++) {
+      echo "Hej" . $i;
+    }
+
+Ruby kodblock
+
+    :::ruby
+    def hello
+      puts "Hi!"
+    end
+
+etc
