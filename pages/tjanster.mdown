@@ -22,6 +22,17 @@ Om du exempelvis skriver följande adress i webbläsaren
   http://c.tile.openstreetmap.se/hydda/base/12/2252/1197.png
 så får du en 256×256 pixel stor bild/karta över östra delen av Arlanda. Om du byter kartstilen `base` mot `full` så blir dessutom en väg mer synlig. <sup>1</sup>
 
+För att använda tileservrarna kan man utnyttja ett Javascriptbibliotek som t.ex. [Leaflet](http://leafletjs.com/) eller [OpenLayers](http://openlayers.org/).
+
+Ex för Leaflet:
+
+    :::javascript
+    L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        subdomains: 'abc',
+    }).addTo(map);
+
+
 
 ## Tagginfo
 Med tjänsten på `http://sweden.taginfo.openstreetmap.se` kan du se statistik för taggarna som används på OpenStreetMap-kartan för Sverige. Här kan du bland annat se hur mycket en tagg används, på vilket typ av element, dess vanligast värden och hur den vanligen kombineras med andra taggar. Kan exempelvis användas för att se vilken av två liknande taggar som är mest använd eller för att hitta taggar som är felaktiga eller sitter på fel typ av element.
