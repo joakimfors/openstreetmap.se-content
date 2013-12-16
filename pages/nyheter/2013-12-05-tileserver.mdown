@@ -1,5 +1,6 @@
 Date: 2013-12-05
-Categories: server
+Categories: nyheter, server
+Flags: front
 Author: Joakim Fors
 Summary: Tileservern börjar sakta men säkert ta form.
 

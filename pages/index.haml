@@ -23,4 +23,4 @@ Template: home
 #news.clearfix
   %h2 Nyheter
 
-  %section.articles= article_summaries(latest_articles)
+  %section.articles= article_summaries(latest_articles.select { |article| article.flagged_as?('front') })
