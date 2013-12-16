@@ -44,4 +44,4 @@ Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster
 
 ----
 
-<sup>1</sup> Normalt hämtar man sällan kartor på detta sätt, utan man har ett program som gör det (t.ex JavaScript för webbsidor). Då kan man istället ange latitud och longitud tillsammans med en zoom-nivå och ett område. Sen ser programmet till att hämta de kartrutor som krävs för att presentera kartan korrekt.
+<p class="footnote"><sup>1</sup> Normalt hämtar man sällan kartor på detta sätt, utan man har ett program som gör det (t.ex JavaScript för webbsidor). Då kan man istället ange latitud och longitud tillsammans med en zoom-nivå och ett område. Sen ser programmet till att hämta de kartrutor som krävs för att presentera kartan korrekt.</p>
