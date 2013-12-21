@@ -1,4 +1,3 @@
-Date: 2013-12-01
 Categories: guider, tjänster, om
 Author: Peter Kindström
 Description: En mening som beskriver sidan innehåll för sökmotorer och liknande.
