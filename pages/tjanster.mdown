@@ -4,14 +4,27 @@ Description: En sida som beskriver alla tjänster som erbjuds på openstreetmap.
 Summary: På denna sida beskrivs de tjänster som finns att tillgå på servern hos openstreetmap.se. Du kan kort se hur man kommer åt dem och även hitta information om hur du själv kan använda servern för en tjänst eller ett projekt.
 
 # Tjänster
+
 För tillfället erbjuder openstreetmap.se förljande externa tjänster:
 
 
+## Skalkonto
+
+För den som bara behöver dela ut lite dokument eller filer, ha en enklare hemsida eller bara köra små script eller program räcker det möjligtvis med enbart ett enkelt konto på `shell.openstreetmap.se`. För mer avancerade projekt som kräver fler komponenter bör man efterfråga en virtuell maskin.
+
+
+## Virtuella maskiner
+
+Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data. Har du en idé du vill förverkliga, kontakta oss så ska vi se vad vi kan göra.
+
+
 ## Overpass API
+
 Med hjälp av [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) kan du hämta OpenStreetMap kartdata för Sverige. Man skriver frågor i webbadressen och får som svar kartdata i textform. Du når tjänsten på adressen `http://sweden.overpass.openstreetmap.se/api/`.
 
 
 ## Tileserver
+
 Kartor hämtade från Internet byggs vanligen upp av flera mindre kartrutor, s.k. tiles. Dessa kartrutor hämtas från tileservers, som dessutom kan ha kartrutor med olika kartstil och detaljinnehåll. Från `{abcdef}.tile.openstreetmap.se/` kan du hämta kartrutor för Sverige och det finns följande kartstilar att välja mellan
 
 * `/hydda/full/{z}/{x}/{y}.png`
@@ -35,12 +48,10 @@ Ex för Leaflet:
 
 
 ## Tagginfo
+
 Med tjänsten på `http://sweden.taginfo.openstreetmap.se` kan du se statistik för taggarna som används på OpenStreetMap-kartan för Sverige. Här kan du bland annat se hur mycket en tagg används, på vilket typ av element, dess vanligast värden och hur den vanligen kombineras med andra taggar. Kan exempelvis användas för att se vilken av två liknande taggar som är mest använd eller för att hitta taggar som är felaktiga eller sitter på fel typ av element.
 Vill du veta mer om detta, kan du läsa på [wikisidan om Taginfo](http://wiki.openstreetmap.org/wiki/Taginfo).
 
-
-## Virtuella maskiner
-Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data. Har du en idé du vill förverkliga, kontakta oss så ska vi se vad vi kan göra.
 
 ----
 
