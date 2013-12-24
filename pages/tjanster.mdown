@@ -17,6 +17,7 @@ För den som bara behöver dela ut lite dokument eller filer, ha en enklare hems
 
 Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data. Har du en idé du vill förverkliga, kontakta oss så ska vi se vad vi kan göra.
 
+
 ## Tasking Manager
 
 Vi kör en instans av [HOT Tasking Manager](https://github.com/hotosm/osm-tasking-manager) på `http://tasks.openstreetmap.se`. Med den kan man skapa egna strukturerade kartläggningsprojekt.
@@ -60,6 +61,11 @@ Vill du veta mer om detta, kan du läsa på [wikisidan om Taginfo](http://wiki.o
 ## PostGIS
 
 Postgresql med GIS tillägg med OSM data förberedd för rendering. Tillgänglig för virtuella maskiner som körs på openstreetmap.se.
+
+
+## JIRA
+
+JIRA felhanteringssystem finns tillgängligt på `http://jira.openstreetmap.se`.
 
 
 ----
