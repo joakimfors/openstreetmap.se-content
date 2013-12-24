@@ -6,10 +6,12 @@ Flags: draft
 
 
 # Sidans huvudrubrik
+
 Börja sidan med ett stycke där du beskriver kort vad som kommer att avhandlas på sidan.
 
 
 ## Underrubriker
+
 Normalt bör vi inte använda fler rubriknivåer än denna, det blir mest svårläst. Det går faktiskt att skriva artiklar med bara en rubriknivå, man måste dock tänka lite extra på hur man lägger upp texten när man skriver. :-)
 
 * En enkel lista
@@ -19,6 +21,7 @@ Normalt bör vi inte använda fler rubriknivåer än denna, det blir mest svårl
 
 
 ## Metadata
+
 *Date* - datum (i formatet yyyy-mm-dd) då sidan skapades eller senast ändrades.
 *Categories* - för en webbsida (inte bloggpost) använd samma kategorier som det finns avdelningar (guider, tjänster, om).
 *Author* - namn på alla som bidragit till sidans innehåll.
