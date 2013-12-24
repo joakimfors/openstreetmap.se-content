@@ -24,6 +24,8 @@ Se till att skicka brevet från den e-postadress vi sen ska använda för vidare
 
 Nu kommer någon av administratörerna att göra en sista bedömning av om du kan få konto/VM. Troligen är det inga problem om det inte varit tveksamt på e-postlistan, men om det blir avslag så lovar vi skicka ett mail tillbaka och beskriva varför.
 
+Det går även bra att dyka upp på `#osm.se-infra @ irc.oftc.net` för att diskutera saker.
+
 
 ## Logga in första gången
 
