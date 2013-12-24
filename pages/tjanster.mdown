@@ -5,7 +5,7 @@ Summary: På denna sida beskrivs de tjänster som finns att tillgå på servern 
 
 # Tjänster
 
-För tillfället erbjuder openstreetmap.se förljande externa tjänster:
+För tillfället erbjuder openstreetmap.se förljande tjänster:
 
 
 ## Skalkonto
@@ -16,6 +16,10 @@ För den som bara behöver dela ut lite dokument eller filer, ha en enklare hems
 ## Virtuella maskiner
 
 Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster relaterade till öppen GIS-data. Har du en idé du vill förverkliga, kontakta oss så ska vi se vad vi kan göra.
+
+## Tasking Manager
+
+Vi kör en instans av [HOT Tasking Manager](https://github.com/hotosm/osm-tasking-manager) på `http://tasks.openstreetmap.se`. Med den kan man skapa egna strukturerade kartläggningsprojekt.
 
 
 ## Overpass API
@@ -47,10 +51,15 @@ Ex för Leaflet:
 
 
 
-## Tagginfo
+## Taginfo
 
 Med tjänsten på `http://sweden.taginfo.openstreetmap.se` kan du se statistik för taggarna som används på OpenStreetMap-kartan för Sverige. Här kan du bland annat se hur mycket en tagg används, på vilket typ av element, dess vanligast värden och hur den vanligen kombineras med andra taggar. Kan exempelvis användas för att se vilken av två liknande taggar som är mest använd eller för att hitta taggar som är felaktiga eller sitter på fel typ av element.
 Vill du veta mer om detta, kan du läsa på [wikisidan om Taginfo](http://wiki.openstreetmap.org/wiki/Taginfo).
+
+
+## PostGIS
+
+Postgresql med GIS tillägg med OSM data förberedd för rendering. Tillgänglig för virtuella maskiner som körs på openstreetmap.se.
 
 
 ----
