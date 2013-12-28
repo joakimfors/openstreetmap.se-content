@@ -7,15 +7,27 @@ Flags: draft
 
 
 # Nyhetens rubrik
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 En bra nyhet besvarar de sex journalistiska grundfrågorna: vad som har hänt, vem som har gjort det, var det hände, hur det gick till, varför det hände (orsak) och vilka konsekvenser det fått.
 Börja med att besvara första frågan och sedan de övriga i tur och ordning, så blir det automatisk en nyhetsartikel. Naturligtvis behöver inte alla frågor ett svar i alla nyheter, men frågorna är en bra början.
 
 
 ## Underrubriker
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 Använd helst inte underrubriker i korta nyheter. Är det på väg att bli en lång nyhet, kanske det finns anledning att göra det till en guide eller webbsida istället?
 
 
 ## Metadata
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 *Date* - datum (i formatet yyyy-mm-dd) då nyheten skapades eller senast ändrades. Ett datum senare än dagens, gör att nyheten publiceras först detta senare datum.
 *Categories* - försök hålla enhetliga kategorier enligt exemplen i denna malls huvud
 *Author* - namn på den som skrivit nyheten
@@ -25,8 +37,16 @@ Använd helst inte underrubriker i korta nyheter. Är det på väg att bli en l�
 
 
 ## Filnamn
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 Nyhetens filnamn blir även en del av webbadressen, t.ex. `http://openstreetmap.se/nyheter/2013-12-05-tileserver`. Ange därför alltid datum först och använd "-" för mellanslag (inte "_". Försök hålla filnamnet kort och koncist.
 
 
 ## Övrigt
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 Läs mer om Markdown här: [Markdown: Syntax](http://daringfireball.net/projects/markdown/syntax)

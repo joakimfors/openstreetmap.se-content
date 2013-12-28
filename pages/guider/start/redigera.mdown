@@ -1,6 +1,8 @@
 Title: Redigera
 Description: Exempel på hur du ritar vanliga kartobjekt
 Author: Peter Kindström
+Categories: guider
+Summary: Börja med att gå till OpenStreetMaps webbplats och zooma in kartan där du vill rita.
 
 # Redigera kartan
 Innan du börjar ändra och lägga till på OpenStreetMap måste du känna till att du *inte* får använda copyright-skyddat material för att skapa OpenStreetMap-kartor. Du kan alltså *inte* rita av från t.ex. Hitta.se eller Google Maps och du får normalt *inte* heller rita av någon papperskarta. Den kartdata du lägger in måste vara fri att använda. Är den inte det, eller är du tveksam, lägg inte in den.

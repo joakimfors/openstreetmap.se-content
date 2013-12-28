@@ -1,15 +1,24 @@
 Categories: guider
+<<<<<<< HEAD
 Author: Peter Kindström
+=======
+Author: Peter Kindström, Joakim Fors
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 Description: Hur du får konto/vm på openstreetmap.se och hur du loggar in där.
 Summary: Beskrivning av hur du får ett konto/virtuell maskin på openstreetmap.se och hur du gör för att logga in.
 Flags: draft
 
 
 # Eget konto & virtuell server
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 På openstreetmap.se finns möjlighet att ha både eget konto och en egen virtuell maskin (VM). Dessa är i första hand till för experiment och tjänster relaterade till öppen GIS-data.
 
 
 ## Presentera dig & din idé
+<<<<<<< HEAD
 Innan du kan få konto/vm vill vi förstås veta vad det är du tänker använda det till för någonting. Om du är ny för oss, vill vi att du presenterar dig och din idé på [svenska e-post-listan](https://lists.openstreetmap.org/listinfo/talk-se). Då får vi tillfälle att lära känna dig bättre och diskutera vad det är du vill göra.
 
 Om det inte blir protester på e-post-listan så är det dags för nästa steg. Det är enkelt; skicka bara ett mail till *admin snabel-a @openstreetmap punkt se* och skriv följande:
@@ -29,18 +38,61 @@ Börja med att logga in på openstreetmap.se via SSH:
     user@openstreetmap.se's password:
 
 Därefter kommer du på detta sätt vidare till din virtuell maskin:
+=======
+
+Innan du kan få konto/vm vill vi förstås veta vad det är du tänker använda det till för någonting. Om du är ny för oss, vill vi att du presenterar dig och din idé på [svenska e-post-listan](https://lists.openstreetmap.org/listinfo/talk-se). Då får vi tillfälle att lära känna dig bättre och diskutera vad det är du vill göra.
+
+Om det inte blir protester på e-post-listan så är det dags för nästa steg. Det är enkelt; skicka bara ett mail till *admin snabel-a openstreetmap punkt se* och skriv följande:
+
+ - Önskat "username"
+ - Ditt namn
+ - Vad det är du vill/behöver
+
+Se till att skicka brevet från den e-postadress vi sen ska använda för vidare kontakter i ärendet.
+
+Nu kommer någon av administratörerna att göra en sista bedömning av om du kan få konto/VM. Troligen är det inga problem om det inte varit tveksamt på e-postlistan, men om det blir avslag så lovar vi skicka ett mail tillbaka och beskriva varför.
+
+Det går även bra att dyka upp på `#osm.se-infra @ irc.oftc.net` för att diskutera saker.
+
+
+## Logga in första gången
+
+När allt är klart får du (på något sätt) uppgifter om ditt användarnamn, ditt lösenord och om du fått en VM, vad den heter. Du är nu redo att logga in första gången.
+
+Börja med att logga in på shell.openstreetmap.se via SSH:
+
+    > ssh user@shell.openstreetmap.se
+    user@shell.openstreetmap.se's password:
+
+Därefter kommer du på detta sätt vidare till din virtuell maskin:
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
     > ssh dev-user
     user@dev-user's password:
 
 Du är nu inloggad som vanlig användare på maskinen och kan göra vad man normalt kan göra som användare i GNU/Linux. Du har även möjlighet att bli root-användare, lämpligen genom att bara byta användare:
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
     > su
     Password:
 
 
 ## Byta lösenord
+<<<<<<< HEAD
 Första gången du loggar in måste du byta till ett nytt lösenord. Och fuska inte med några enkla lösenord, det bör vara minst siffror, versaler och gemener och 8 tecken långt. Lägg gärna in specialtecken också och gör det 10 tecken långt! Du byter lösenord för den användare du är inloggad som med:
+=======
+
+Första gången du loggar in måste du byta till ett nytt lösenord. Och fuska inte med några korta lösenord. Följ gärna [denna enkla guide](http://xkcd.com/936/)! ;) Du byter lösenord för den användare du är inloggad som med:
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
     > passwd
 
 
 ## Förhållningsregler
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2942aafb87060c3fe09ee4fa669150c71744767
 Vi förutsätter att du förstår att inte utnyttja våra resurser hur som helst, utan att det sker med ansvar och eftertanke. Och det ska vara något som är relaterat till OpenStreetMap och/eller öppen GIS-data.
