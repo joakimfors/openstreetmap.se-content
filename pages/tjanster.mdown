@@ -20,7 +20,7 @@ Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster
 
 ## Tasking Manager
 
-Vi kör en instans av [HOT Tasking Manager](https://github.com/hotosm/osm-tasking-manager) på `http://tasks.openstreetmap.se`. Med den kan man skapa egna strukturerade kartläggningsprojekt.
+Vi kör en instans av [HOT Tasking Manager](https://github.com/hotosm/osm-tasking-manager) på [`http://tasks.openstreetmap.se`](http://tasks.openstreetmap.se). Med den kan man skapa egna strukturerade kartläggningsprojekt.
 
 
 ## Overpass API
@@ -65,7 +65,7 @@ Postgresql med GIS tillägg med OSM data förberedd för rendering. Tillgänglig
 
 ## JIRA
 
-JIRA felhanteringssystem finns tillgängligt på `http://jira.openstreetmap.se`.
+JIRA felhanteringssystem finns tillgängligt på [`http://jira.openstreetmap.se`](http://jira.openstreetmap.se).
 
 
 ----
