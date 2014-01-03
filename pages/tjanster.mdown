@@ -5,7 +5,7 @@ Summary: På denna sida beskrivs de tjänster som finns att tillgå på servern 
 
 # Tjänster
 
-För tillfället erbjuder openstreetmap.se förljande tjänster:
+För tillfället erbjuder openstreetmap.se följande tjänster:
 
 
 ## Skalkonto
