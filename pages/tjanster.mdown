@@ -35,6 +35,7 @@ Kartor hämtade från Internet byggs vanligen upp av flera mindre kartrutor, s.k
 * `/hydda/full/{z}/{x}/{y}.png`
 * `/hydda/base/{z}/{x}/{y}.png`
 * `/hydda/roads_and_labels/{z}/{x}/{y}.png`
+* `/osm/{z}/{x}/{y}.png`
 
 Om du exempelvis skriver följande adress i webbläsaren
   http://c.tile.openstreetmap.se/hydda/base/12/2252/1197.png
