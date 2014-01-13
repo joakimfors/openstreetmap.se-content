@@ -1,16 +1,15 @@
-Date: 2014-01-14
+Date: 2014-01-13
 Categories: nyheter, server
 Flags: front
 Author: Joakim Fors
-Summary: Gott nytt år, ny tileserver, uppdaterad spegling av sweden.osm.
+Summary: Gott nytt år, ny tileserver, uppdaterad spegling av sweden.osm osv.
 
-# Gott nytt år
+# Gott nytt år!
 
 Vi får önska alla glada kartläggare ett, något försenat, gott nytt år! Av förklarliga skäl har det varit lite mindre aktivitet under denna långhelg men nu börjar vi sätta fart igen.
 
 En ny tileserver VM med senaste mod_tile är på plats vilket betyder bättre prestanda och fler funktioner. Kalle har även jobbat på att erbjuda fler kartstilar samt göra det möjligt att erbjuda användardefinerade kartstilar.
 
-Vi har även blivit vitlistade av Geofabrik så nu är http://mirror.openstreetmap.se/geofabrik/europe/ åter uppdaterad.
+Vi har även blivit vitlistade av Geofabrik så nu är [spegeln](http://mirror.openstreetmap.se/geofabrik/europe/) åter uppdaterad.
 
-Sist men inte minst vill vi påminna er att kontakta `admin at openstreetmap.se` eller hoppa in på #osm.se-infra @ irc.oftc.net om ni har något projekt på gång som behöver resurser.
-
+Sist men inte minst vill vi påminna er att kontakta `admin at openstreetmap.se` eller hoppa in på `#osm.se-infra @ irc.oftc.net` om ni har något projekt på gång som behöver resurser.
