@@ -7,7 +7,7 @@ Summary: Malmö Yrkeshögskola sponsrar med två stycken 1TB SSD.
 
 # Dags för planeten
 
-Vi vill med glädje och tacksamhet meddlea att Malmö Yrkeshögskola har skänkt två rejäla diskar till openstreetmap.se!
+Vi vill med glädje och tacksamhet meddela att Malmö Yrkeshögskola har skänkt två rejäla diskar till openstreetmap.se!
 
 Diskarna är troligen mer än tillräckligt för att husera all världens data, den s.k. planet-databasen, i flera år framöver.
 
