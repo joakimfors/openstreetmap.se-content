@@ -20,3 +20,4 @@ Servern innehåller följande prylar:
 * 48 GiB DDR3 ECC RAM på 1600 MHz
 * 2 st Seagate Constellation 500 GB SAS
 * 2 st Samsung SM843T 240 GB SATA
+* 2 st Samsung 840 EVO 1 TB SATA/600 TLC
