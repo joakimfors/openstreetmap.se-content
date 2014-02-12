@@ -1,0 +1,18 @@
+Date: 2013-12-14
+Categories: server, osmsverige, osm
+Author: Karl Wettin
+Description: Malmö Yrkeshögskola sponsrar med 2x1TB SSD
+Summary: Malmö Yrkeshögskola sponsrar openstreetmap.se med två stycken 1TB SSD.
+
+# Malmö Yrkeshögskola sponsrar openstreetmap.se med två 1TB SSD.
+
+Vi vill med glädje och tacksamhet meddlea att Malmö Yrkeshögskola har skänkt två rejäla diskar till openstreetmap.se!
+
+Diskarna är troligen mer än tillräckligt för att husera all världens data, den s.k. planet-databasen, i flera år framöver.
+
+Vi arbetar fortfarande med installation och har i skrivande stund en ny VM med PostGIS på plats. På maskinen körs även Osmosis varje minut mot OpenStreetMaps primära förändingsdata, 
+dvs databasen och de applikationer som använder den (läs: kartor) är mer eller mindre uppdaterade i realtid. Detta kan jämföras med den gamla databasen över Sverige som en gång om dagen
+uppdateras med ett urklipp av Sverige från världsdatabasen hos GeoFabrik i Tyskland, dvs med en fördröjning av ny data på upp till två dygn.
+
+Dessvärre har vi stött på lite problem vid rendering av kartor som täcker hela världen då det plötsligt kan bli väldigt mycket mer data som skall hanteras. Vi arbetar så mycket vi kan med 
+problemet och hoppas det skall vara avvärjt inom kort så alla kan få ta del av världskartan.
