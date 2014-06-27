@@ -1,0 +1,14 @@
+Date: 2013-12-14
+Categories: server, osmsverige, osm
+Author: Karl Wettin
+Description: Fördubbling av RAM i servern.
+Summary: Ytterligare 48GB RAM till servern.
+
+
+# Fördubbling av RAM i servern
+
+Ett stort tack till Fredrik Sköld (FS-Data) och Joakim Jardenberg (Helsingborgs stad) som har trollat fram en dubblering av RAM till servern, från 48GB till 96GB!
+
+Då vår PostgreSQL-databas under året har växt från att innehålla Sverige (~6GB) till hela världen (~600GB) har även behovet av  mer minne växt lika mycket för att 
+kunna fortsätta tillhandahålla och rendera karta i samma fart som tidigare. Den absolut största mängden av nya minnet (32GB) är tilldelat databasen och resternade 
+har gått till vår Varnish-cache-server som ser till att returnera de mest frekvent efterfrågade kartbitarna på under en millisekund.
