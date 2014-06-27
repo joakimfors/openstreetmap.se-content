@@ -14,7 +14,7 @@ Alla texter och bilder på denna webbplats får användas/redigeras fritt, enlig
 ## Hårdvara
 Servern innehåller följande prylar:
 
-* Debian 7.2 som KVM-värd.
+* Debian Wheezy 7.5 som KVM-värd.
 * Supermicro 1U chassi med dubbla PSUn
 * 2 st Intel Xeon E5 2420 på 1,9 GHz
 * 12x8 GiB DDR3 ECC RAM på 1600 MHz
