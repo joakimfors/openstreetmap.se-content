@@ -1,0 +1,11 @@
+Date: 2014-06-28
+Categories: nyheter, server
+Author: Joakim Fors
+Description: Uppgradering av kernel
+Summary: Servern kommer troligtvis att startas om för en kernel-uppgradering i kväll/natt
+Flags: front
+
+
+# Uppgradering av kernel
+
+Servern kommer att plockas ner en liten stund ikväll eller i morgon beroende på när jag har tid att sitta och jobba med det. Orsaken är att en disk inte vill hållas kvar i RAID arrayen och det möjligtvis beror på en bug i Intel C600 drivern. Tänkte därför göra ett försök att plocka in nyare kärna från wheezy-backports för att se om det hjälper.
