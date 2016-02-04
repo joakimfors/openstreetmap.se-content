@@ -1,4 +1,4 @@
-Date: 2013-12-14
+Date: 2015-05-11
 Categories: server, overpass
 Author: Karl Wettin
 Description: sweden.overpass.openstreetmap.se tillbaka.
