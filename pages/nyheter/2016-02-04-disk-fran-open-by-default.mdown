@@ -1,0 +1,22 @@
+Date: 2016-02-04
+Categories: server, tiles
+Author: Karl Wettin
+Description: Ny disk till tileserver.
+Summary: Open by default har vänligen skänkt 1TB SSD till tilecache.
+Flags:
+
+
+# Ny disk till tileserver skänkt av Open by default
+
+Vi kan med glädje rapportera att [Open by default](http://openbydefault.se) har sponsrat OpenStreetMap Sverige med 1TB SSD EVO 850! Gemenskapen tackar och bugar!
+
+På senare tid har det varit problem med diskutrymme på vår tile-server, dvs den tjänst som tillhandahåller renderade kartor. 
+Effekten har varit att kartbitar inte cachats, eller med andra ord att kartbitar renderats vid förfrågan i stället för att
+plocka upp dem från disk. Vid hög belastning har det blivit väldigt långsamt. Dessutom har vi manuellt varit tvugna att
+då och då radera en bit av cachen för att göra plats för kartbitar där data har förändrats, vilket alltså skapat en inte
+helt acceptabel fördröjning mellan databasen och den synliga kartan hos oss.
+
+Jan Ainali på Open by default låter hälsa på följande vis:
+
+"OpenStreetMap är den givna tjänsten för öppna geografiska data och att ha en funktionell server som det går att experimentera på 
+är viktigt för att kreativiteten ska kunna få utrymme. Open by default är glada att kunna hjälpa till och hoppas att disken kommer till nytta."
