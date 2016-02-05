@@ -1,9 +1,9 @@
 Date: 2015-05-11
-Categories: server, overpass
+Categories: nyheter, server, overpass
 Author: Karl Wettin
 Description: sweden.overpass.openstreetmap.se tillbaka.
 Summary: Efter att ha varit trasig en tid är svenska overpass-servern tillbaka.
-Flags:
+Flags: front
 
 
 # Svenska Overpass tillbaka

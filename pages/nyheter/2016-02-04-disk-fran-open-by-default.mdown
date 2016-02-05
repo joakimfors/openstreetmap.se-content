@@ -1,9 +1,9 @@
 Date: 2016-02-04
-Categories: server, tiles
+Categories: nyheter, server, tiles
 Author: Karl Wettin
 Description: Ny disk till tileserver.
 Summary: Open by default har vänligen skänkt 1TB SSD till tilecache.
-Flags:
+Flags: front
 
 
 # Ny disk till tileserver skänkt av Open by default
