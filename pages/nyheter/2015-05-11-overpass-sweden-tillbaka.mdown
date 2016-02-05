@@ -1,0 +1,14 @@
+Date: 2015-05-11
+Categories: nyheter, server, overpass
+Author: Karl Wettin
+Description: sweden.overpass.openstreetmap.se tillbaka.
+Summary: Efter att ha varit trasig en tid är svenska overpass-servern tillbaka.
+Flags: front
+
+
+# Svenska Overpass tillbaka
+
+VMen på sweden.overpass.openstreetmap.se har de senaste månaderna mått mycket dåligt, till slut så illa att den inte fungerade längre.
+Nu har vi äntligen installerat om hela maskinen, lagt in den senaste stabila versionen av mjukvaran. Den uppdateras nu dagligen med Sverige-data från vår egen geofabrik-spegel som i sin tur uppdateras en gång om dagen. Med lite otur kan alltså data som serveras vara upp till tre dagar gammal.   
+
+Denna Overpass-installation innehåller alltså enbart data som täcker Sverige, vilket underlättar utdrag en hel del jämfört mot att ställa tunga långsamma frågor mot planet-databasen som skall filtreas för att enbart returnera data från vårt lilla land.
