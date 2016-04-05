@@ -20,7 +20,7 @@ Vi kan även erbjuda hosting av virtuella maskiner för experiment och tjänster
 
 ## Tasking Manager
 
-Vi kör en instans av [HOT Tasking Manager](https://github.com/hotosm/osm-tasking-manager) på [`http://tasks.openstreetmap.se`](http://tasks.openstreetmap.se). Med den kan man skapa egna strukturerade kartläggningsprojekt.
+Vi kör en instans av [HOT Tasking Manager 2](https://github.com/hotosm/osm-tasking-manager2) på [`http://tasks2.openstreetmap.se`](http://tasks2.openstreetmap.se). Med den kan man skapa egna strukturerade kartläggningsprojekt.
 
 
 ## Overpass API
