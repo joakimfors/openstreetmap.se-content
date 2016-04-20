@@ -57,14 +57,15 @@ Ex för Leaflet:
 Vi tillhandahåller även tiles med kartor och flygfoton som primärt används till kalkeringsgrund vid kartering.  
 
 Ekonomiska kartan, Lantmäteriets kartblad från ca 1950 till ca 1980. 
-* `http://mapproxy.openstreetmap.se/tms/1.0.0/ek_EPSG3857/{zoom}/{x}/{-y}.jpeg`
+* `http://mapproxy.openstreetmap.se/{service}/1.0.0/ek_EPSG3857/{z}/{x}/{y}.jpeg`
 
 Flygfoton över Helsingborgs stad från 2014.
-* `http://mapproxy.openstreetmap.se/tiles/1.0.0/hborg2014_EPSG3857/{z}/{x}/{y}.jpeg`
+* `http://mapproxy.openstreetmap.se/{service}/1.0.0/hborg2014_EPSG3857/{z}/{x}/{y}.jpeg`
 
 Flygfoton över Kalmar stad från 2012. 
-* `http://mapproxy.openstreetmap.se/tiles/1.0.0/kalmar2012_EPSG3857/{z}/{x}/{y}.jpeg`
+* `http://mapproxy.openstreetmap.se/{service}/1.0.0/kalmar2012_EPSG3857/{z}/{x}/{y}.jpeg`
 
+Där `{service}` kan vara antingen `tms` eller `tiles`.
 
 ## Taginfo
 
