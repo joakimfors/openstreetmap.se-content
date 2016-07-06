@@ -77,6 +77,11 @@ Vill du veta mer om detta, kan du läsa på [wikisidan om Taginfo](http://wiki.o
 
 Postgresql med GIS tillägg med OSM data förberedd för rendering. Tillgänglig för virtuella maskiner som körs på openstreetmap.se.
 
+## Dataspegel
+
+Nattliga kopior av Geofabriks OpenStreetMap-urklipp enbart innehållande Sverige, data som används av vår egna tjänster, finns tillgängliga för nerladdning direkt från oss.
+
+* `http://mirror.openstreetmap.se/geofabrik/europe/`
 
 ## JIRA
 
