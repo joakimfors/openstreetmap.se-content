@@ -65,6 +65,10 @@ Flygfoton över Helsingborgs stad från 2014.
 Flygfoton över Kalmar stad från 2012. 
 * `http://mapproxy.openstreetmap.se/{service}/1.0.0/kalmar2012_EPSG3857/{z}/{x}/{y}.jpeg`
 
+NVDB hastigheter.
+* `http://mapproxy.openstreetmap.se/{service}/1.0.0/nvdb_speeds/EPSG3857/{z}/{x}/{y}.png`
+* `http://mapproxy.openstreetmap.se/{service}/1.0.0/nvdb_speeds_alt/EPSG3857/{z}/{x}/{y}.png`
+
 Där `{service}` kan vara antingen `tms` eller `tiles`.
 
 ## Taginfo
