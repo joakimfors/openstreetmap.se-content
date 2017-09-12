@@ -1,8 +1,8 @@
 Date: 2017-09-12
 Categories: nyheter, server
 Author: Karl Wettin
-Description: Temporary slow response from tile server
-Summary: Temporary slow response from tile server
+Description: Temporary slow tile server
+Summary: Temporary slow tile server
 Flags: front
 
 
