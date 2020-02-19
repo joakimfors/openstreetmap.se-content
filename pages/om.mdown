@@ -22,3 +22,4 @@ Servern innehåller följande prylar:
 * 2 st Samsung SM843T 240 GB SATA
 * 2 st Samsung 840 EVO 1 TB SATA/600 TLC
 * 1 st Samsung 850 EVO 1 TB SATA/600 TLC
+* 1 st Samsung 850 EVO 2 TB SATA/600 TLC

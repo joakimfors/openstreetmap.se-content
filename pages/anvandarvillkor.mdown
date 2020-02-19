@@ -1,0 +1,31 @@
+# Användarvillkor
+
+Data från OpenStreetMap är licensierad med ODbL. Vid användning av denna data eller derivat därav
+krävs en källhänvisning till OpenStreetMap Foundation och bidragare i direkt förbindelse med presentation.
+Se engelskspråkiga [OpenStreetMap](https://www.openstreetmap.org/copyright) för mer information.
+
+# Karta från OpenStreetMap Sverige
+
+Vid användning av karta som tillhandahålls av OpenStreetMap Sverige krävs utöver ovanstående källhänvisning
+även en källhänvisning till oss på OpenStreetMap Sverige.
+
+Exempel:
+
+```
+var Hydda_Full = L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+	maxZoom: 20,
+	attribution: 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+```
+
+Det är inte rekommenderat att använda vår kartserver för affärskritiska ändamål. Vår internetuppkoppling är instabil
+och vi har inte tillräckligt med hårdvaruresurser för att driva en sekundär tjänst vid uppdatering av den primära.
+Vill du ändå använda vår kartstilrekommenderar vi dig att installera en egen tile server med [samma kartstil som oss](https://github.com/karlwettin/carto-style-hydda).
+
+Vi förbehåller oss rätten att utan förvarning begränsa eller stänga av tjänster
+* som saknar korrekt källhänvisning
+* som tungt belastar vår server
+* som använder kartan i tjänster allmänheten inte kan ta del av
+* som använder kartan till en tjänst som står i strid med OpenStreetMap Sveriges syn på god sed
+
+Kontakta admin@openstreetmap.se om du har blivit utlåst.

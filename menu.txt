@@ -2,4 +2,5 @@ nyheter
 guider
   guider/konto
 tjanster
+anvandarvillkor
 om
