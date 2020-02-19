@@ -51,6 +51,7 @@ Ex för Leaflet:
         subdomains: 'abc',
     }).addTo(map);
 
+Notera att vi rekommenderar att inte använda vår kartserver för affärskritiska lösningar. Det finns inga garantier gällande upptid. Vår internetuppkoppling är instabil och det saknas hårdvaruresurser för sekundära system vid uppgradering av servern, vilket sker titt som tätt. Vi föreslår att ni i stället installerar er egna kartserver med våra kartstilar.
 
 ### Karterings-tiles
 
