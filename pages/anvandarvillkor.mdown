@@ -23,6 +23,7 @@ och vi har inte tillräckligt med hårdvaruresurser för att driva en sekundär 
 Vill du ändå använda vår kartstilrekommenderar vi dig att installera en egen tile server med [samma kartstil som oss](https://github.com/karlwettin/carto-style-hydda).
 
 Vi förbehåller oss rätten att utan förvarning begränsa eller stänga av tjänster
+
 * som saknar korrekt källhänvisning
 * som tungt belastar vår server
 * som använder kartan i tjänster allmänheten inte kan ta del av
