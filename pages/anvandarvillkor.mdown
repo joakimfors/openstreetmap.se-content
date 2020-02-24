@@ -2,14 +2,15 @@
 
 Data från OpenStreetMap är licensierad med ODbL. Vid användning av denna data eller derivat därav
 krävs en källhänvisning till OpenStreetMap Foundation och bidragare i direkt förbindelse med presentation.
-Se engelskspråkiga [OpenStreetMap](https://www.openstreetmap.org/copyright) för mer information.
+Läs på [OpenStreetMap foundation](https://www.openstreetmap.org/copyright) för mer information.
 
 # Karta från OpenStreetMap Sverige
 
 Vid användning av karta som tillhandahålls av OpenStreetMap Sverige krävs utöver ovanstående källhänvisning
-även en källhänvisning till oss på OpenStreetMap Sverige.
+även en källhänvisning till oss på OpenStreetMap Sverige. Källhänvisningen skall vara tydligt synlig tillsammans med kartan,
+man skall alltså inte behöva gå till en annan sida eller trycka på en knapp för att finna källhänvisningarna.
 
-Exempel:
+Exempel med Leaflet:
 
 ```
 var Hydda_Full = L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
@@ -18,10 +19,6 @@ var Hydda_Full = L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{
 });
 ```
 
-Det är inte rekommenderat att använda vår kartserver för affärskritiska ändamål. Vår internetuppkoppling är instabil
-och vi har inte tillräckligt med hårdvaruresurser för att driva en sekundär tjänst vid uppdatering av den primära.
-Vill du ändå använda vår kartstilrekommenderar vi dig att installera en egen tile server med [samma kartstil som oss](https://github.com/karlwettin/carto-style-hydda).
-
 Vi förbehåller oss rätten att utan förvarning begränsa eller stänga av tjänster
 
 * som saknar korrekt källhänvisning
@@ -29,4 +26,19 @@ Vi förbehåller oss rätten att utan förvarning begränsa eller stänga av tj�
 * som använder kartan i tjänster allmänheten inte kan ta del av
 * som använder kartan till en tjänst som står i strid med OpenStreetMap Sveriges syn på god sed
 
+Vi försöker höra av oss innan vi låser någon ute från vår tjänst. Normalt sett hör man inget av oss förän vi ser att
+en tjänst eller grupp av tjänster från samma ägare orsakar runt 50 000 kartvisningar i månaden, men det kan
+ske tidigare än så då vi aktivt letar efter de som inte lämnar källhänvisning eller använder kartan på publikt ej tillgängliga tjänster.
+Givet att du försökt följa vilkoren kommer vi inte stänga ner dig hur som helst. Vi vill att man använder sig
+av OpenStreetMaps öppna data och våra kartlager och kommer göra vad vi kan för att underlätta för dig att fortsätta använda dessa.
+
+Det är inte rekommenderat att använda vår kartserver för affärskritiska ändamål. Vår internetuppkoppling är instabil
+och vi har inte tillräckligt med hårdvaruresurser för att driva en sekundär tjänst vid uppdatering av den primära.
+Vill du ändå använda vår kartstilrekommenderar vi dig att installera en egen s.k. tile server med [samma kartstil som oss](https://github.com/karlwettin/carto-style-hydda).
+
+Saknar du kunskap för att installera en server kan vi hänvisa dig till lokala frilansare.
+
+OpenStreetMap Sverige är ingen organisation i lagens mening och säljer därmed heller inga kommersiella karttjänster.
+
 Kontakta admin@openstreetmap.se om du har blivit utlåst.
+
