@@ -25,7 +25,7 @@ Vi kör en instans av [HOT Tasking Manager 2](https://github.com/hotosm/osm-task
 
 ## Overpass API
 
-Med hjälp av [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) kan du hämta OpenStreetMap kartdata för Sverige. Man skriver frågor i webbadressen och får som svar kartdata i textform. Du når tjänsten på adressen `http://sweden.overpass.openstreetmap.se/api/`.
+Med hjälp av [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) kan du hämta OpenStreetMap kartdata för Sverige. Man skriver frågor i webbadressen och får som svar kartdata i textform. Du når tjänsten på adressen [`http://sweden.overpass.openstreetmap.se/api/`](http://sweden.overpass.openstreetmap.se/api/).
 
 
 ## Tileserver
@@ -38,7 +38,7 @@ Kartor hämtade från Internet byggs vanligen upp av flera mindre kartrutor, s.k
 * `/osm/{z}/{x}/{y}.png`
 
 Om du exempelvis skriver följande adress i webbläsaren
-  http://c.tile.openstreetmap.se/hydda/base/12/2252/1197.png
+  [`http://c.tile.openstreetmap.se/hydda/base/12/2252/1197.png`](http://c.tile.openstreetmap.se/hydda/base/12/2252/1197.png)
 så får du en 256×256 pixel stor bild/karta över östra delen av Arlanda. Om du byter kartstilen `base` mot `full` så blir dessutom en väg mer synlig. <sup>1</sup>
 
 För att använda tileservrarna kan man utnyttja ett Javascriptbibliotek som t.ex. [Leaflet](http://leafletjs.com/) eller [OpenLayers](http://openlayers.org/).
@@ -82,7 +82,7 @@ Där `{service}` kan vara antingen `tms` eller `tiles`.
 
 ## Taginfo
 
-Med tjänsten på `http://sweden.taginfo.openstreetmap.se` kan du se statistik för taggarna som används på OpenStreetMap-kartan för Sverige. Här kan du bland annat se hur mycket en tagg används, på vilket typ av element, dess vanligast värden och hur den vanligen kombineras med andra taggar. Kan exempelvis användas för att se vilken av två liknande taggar som är mest använd eller för att hitta taggar som är felaktiga eller sitter på fel typ av element.
+Med tjänsten på [`http://sweden.taginfo.openstreetmap.se`](http://sweden.taginfo.openstreetmap.se) kan du se statistik för taggarna som används på OpenStreetMap-kartan för Sverige. Här kan du bland annat se hur mycket en tagg används, på vilket typ av element, dess vanligast värden och hur den vanligen kombineras med andra taggar. Kan exempelvis användas för att se vilken av två liknande taggar som är mest använd eller för att hitta taggar som är felaktiga eller sitter på fel typ av element.
 Vill du veta mer om detta, kan du läsa på [wikisidan om Taginfo](http://wiki.openstreetmap.org/wiki/Taginfo).
 
 
@@ -94,7 +94,7 @@ Postgresql med GIS tillägg med OSM data förberedd för rendering. Tillgänglig
 
 Nattliga kopior av Geofabriks OpenStreetMap-urklipp enbart innehållande Sverige, data som används av vår egna tjänster, finns tillgängliga för nerladdning direkt från oss.
 
-* `http://mirror.openstreetmap.se/geofabrik/europe/`
+* [`http://mirror.openstreetmap.se/geofabrik/europe/`](http://mirror.openstreetmap.se/geofabrik/europe/)
 
 ## JIRA
 
